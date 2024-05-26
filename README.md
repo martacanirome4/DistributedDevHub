@@ -10,7 +10,7 @@ abordando diferentes aspectos como la comunicación a través de pipes, fifos, s
 ## Estructura del Repositorio
 El repositorio está organizado en carpetas, bajo el directorio '/practicas', que representan los diferentes tipos de proyectos.
 Cada proyecto incluye su propio README con instrucciones detalladas sobre cómo compilar, ejecutar y utilizar el proyecto.
-Además, se incluye un fichero con diversos recursos teóricos sobre los temas tratados.
+Además, se incluye un fichero con diversos recursos teóricos sobre los temas tratados, dentro de la carpeta '/apuntes'.
 
 ## Lista de Proyectos
 1.  Kata de TDD de Bolos
