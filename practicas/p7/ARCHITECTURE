@@ -1,0 +1,24 @@
+Manual de Arquitectura del Chat Cliente-Servidor
+Este documento proporciona una visión general de la arquitectura del Chat Cliente-Servidor, describiendo los componentes principales del sistema y cómo interactúan entre sí para permitir la comunicación en tiempo real entre múltiples clientes.
+
+Componentes Principales
+El sistema consta de los siguientes componentes principales:
+- Servidor: Es responsable de escuchar las conexiones entrantes de los clientes, administrar las comunicaciones entre ellos y distribuir los mensajes recibidos a todos los clientes conectados.
+- Cliente: Representa a un usuario individual que se conecta al servidor para enviar y recibir mensajes.
+
+Arquitectura del Sistema
+El Chat Cliente-Servidor sigue una arquitectura cliente-servidor clásica, donde el servidor actúa como punto central de comunicación y los clientes se conectan a él para intercambiar mensajes. A continuación se describen los aspectos clave de la arquitectura:
+- Comunicación Cliente-Servidor: Los clientes se conectan al servidor utilizando sockets TCP/IP. Una vez establecida la conexión, tanto el cliente como el servidor pueden enviar y recibir mensajes a través de la conexión establecida.
+- Hilos de Ejecución: Para manejar múltiples conexiones de clientes de manera concurrente, el servidor utiliza hilos de ejecución. Cada vez que un cliente se conecta al servidor, se crea un nuevo hilo para manejar la comunicación con ese cliente, permitiendo así que el servidor atienda a múltiples clientes simultáneamente.
+- Protocolo de Comunicación: El protocolo de comunicación entre el cliente y el servidor es simple y basado en texto. Los clientes envían mensajes de texto al servidor, que luego redistribuye esos mensajes a todos los otros clientes conectados. Los mensajes pueden ser comandos de control (como "exit" para salir del chat) o mensajes de chat normales.
+
+Interacción entre Componentes
+El flujo de interacción entre los componentes del sistema es el siguiente:
+1.  El servidor escucha las conexiones entrantes de los clientes en un socket TCP/IP específico.
+2. Cuando un cliente se conecta al servidor, el servidor acepta la conexión y crea un nuevo hilo para manejar la comunicación con ese cliente.
+3. Una vez que el cliente y el servidor están conectados, el cliente puede enviar mensajes al servidor, que luego redistribuye esos mensajes a todos los otros clientes conectados.
+4. El servidor también puede enviar mensajes a los clientes individuales, como notificaciones de eventos o mensajes de control.
+5. Cuando un cliente decide salir del chat, envía un mensaje especial ("exit") al servidor, que luego cierra la conexión con ese cliente y elimina su hilo asociado.
+
+Conclusiones
+La arquitectura del Chat Cliente-Servidor está diseñada para proporcionar una plataforma de comunicación eficiente y escalable, permitiendo a múltiples usuarios interactuar entre sí en tiempo real. Al comprender los componentes principales del sistema y cómo interactúan entre sí, los desarrolladores pueden diseñar, implementar y mantener el sistema de manera efectiva, asegurando una experiencia de usuario fluida y sin interrupciones.

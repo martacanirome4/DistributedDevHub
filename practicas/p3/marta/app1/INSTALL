@@ -1,0 +1,19 @@
+# Instrucciones de Instalación
+
+## Requisitos Previos
+- Python 3.11 debe estar instalado en su sistema.
+- Asegúrese de tener el directorio `/tmp` creado en su sistema.
+
+## Instalación
+1. Clone o descargue el repositorio en su máquina local.
+2. Navegue hasta el directorio del repositorio.
+
+## Ejecución
+1. En una terminal, ejecute el script del servidor para iniciar el servidor.
+```bash
+python3 serv3.py
+```
+2. En otra terminal, ejecute el script del cliente, proporcionando la ruta completa del archivo como argumento.
+```bash
+python3 cli3.py /ruta/completa/del/archivo.txt
+```

@@ -1,0 +1,12 @@
+Manual de la instalación
+Escribir 'make' para ejecutar el archivo cliserv2.py 
+
+Instalación Python en Ubuntu
+        1.Actualizar el índice de paquetes 
+            sudo apt update
+        2.Instalación de Python 
+            sudo apt install pyhton3
+        3.Verificación de la instalación    
+            python3 --version
+        
+

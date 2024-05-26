@@ -1,0 +1,25 @@
+# Kata del tanteo de Bolos
+
+El desarrollo basado en pruebas (TDD) es un proceso de desarrollo de software en el que escribe pruebas para su código antes de implementarlo.
+Este enfoque ayuda a garantizar que su código cumpla con los requisitos y se comporte como se espera.
+
+La "kata del tanteo de bolos" es un ejercicio de programación utilizado comúnmente para practicar y demostrar habilidades de desarrollo de software utilizando la metodología TDD.
+Este ejercicio se basa en simular el cálculo del puntaje en un juego de bolos, donde los jugadores lanzan bolas para derribar un conjunto de diez bolos en una pista.
+
+Los requisitos para la realización del software del tanteo de los bolos son los siguientes:
+
+1. Una partida de bolos dura diez rondas, en cada una de las cuales el jugador tiene uno o dos intentos para tirar diez bolos colocados formando un triángulo.
+2. Si el jugador tira los diez bolos en el primer intento (esta jugada se denomina "strike"), se anota diez bolos más el número de bolos que tire en sus siguientes dos bolas.
+3. Si el jugador tira los diez bolos en el segundo intento (esta jugada se denomina "spare"), se anota diez bolos más el número de bolos que tire en su próxima bola.
+4. Si el jugador no tira los diez bolos (esta jugada se llama "ronda abierta" u "open frame") se anota el número de bolos que haya tirado.
+5. El marcador se va acumulando en las diez rondas.
+6. Tras la última ronda, si es necesario, se lanzan una o dos bolas extra para anotar el bonus final.
+
+
+## Para  ejecutar los tests
+
+Desde el directorio raíz:
+
+    ```bash
+        python3 -m unittest tests.test_bowling_game
+    ```bash

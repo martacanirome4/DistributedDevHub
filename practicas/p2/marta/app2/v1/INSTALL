@@ -1,0 +1,13 @@
+# Instrucciones de Instalación
+
+## Requisitos Previos
+- Python 3.11 debe estar instalado en su sistema.
+
+## Instalación
+1. Clone o descargue el repositorio en su máquina local.
+2. Navegue hasta el directorio del repositorio.
+3. Ejecute el script de Python `cliserv2.py` para iniciar la aplicación.
+
+```bash
+python cliserv2.py
+```

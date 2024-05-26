@@ -1,0 +1,34 @@
+Instalación, Administración y Configuración del Chat Cliente-Servidor
+
+Este archivo contiene instrucciones detalladas sobre cómo instalar, administrar y configurar el Chat Cliente-Servidor en tu sistema. Sigue los pasos a continuación para poner en funcionamiento el sistema de manera adecuada.
+
+Requisitos del Sistema
+- Python 3.x instalado en tu sistema.
+
+Instalación
+1. Clona o descarga el repositorio del proyecto en tu máquina local: 'git clone http://git.eps.ceu.es/ped/ped7'
+2. Navega al directorio 'p7/app1' del proyecto.
+
+Configuración del Servidor
+1. Abre el archivo 'serv7.py' en un editor de texto.
+2. En la sección de configuración del servidor, puedes cambiar la dirección IP y el puerto si es necesario. Por defecto, el servidor escucha en 127.0.0.1 y el puerto 5545.
+3. Guarda los cambios realizados en el archivo 'serv7.py'.
+
+Ejecución del Servidor
+1. Abre una terminal y navega al directorio 'p7/app1' del proyecto.
+2. Ejecuta el siguiente comando para iniciar el servidor: 'python3 serv7.py'
+3. El servidor estará ahora escuchando en la dirección IP y el puerto especificados.
+
+Configuración del Cliente
+1. Abre el archivo 'cli7.py' en un editor de texto.
+2. Si deseas cambiar la dirección IP y el puerto del servidor al que te conectarás, puedes modificarlos en el script. Por defecto, el cliente se conecta a 127.0.0.1 y el puerto 5545.
+3. Guarda los cambios realizados en el archivo 'cli7.py'.
+
+Ejecución del Cliente
+1. Abre otra terminal y navega al directorio 'p7/app1' del proyecto.
+2. Ejecuta el siguiente comando para iniciar el cliente: 'python3 cli7.py'
+3. Se te solicitará que ingreses un nombre de usuario. Ingresa un nombre único y presiona 'Enter'.
+4. Si el nombre de usuario es aceptado, estarás conectado al servidor y podrás comenzar a enviar mensajes.
+
+Cierre del Servidor
+Para detener el servidor, simplemente presiona 'Ctrl + C' en la terminal donde se está ejecutando el script 'serv7.py'.
