@@ -1,0 +1,12 @@
+Este archivo es para probar las funcionalidades de la clase Kata.
+
+Palabras palíndromas: radar, nivel, ana
+Palabras con vocales: murciélago, agua, hola
+Palabras que comienzan con 'A': Amanda, amor, araña
+Palabras con más de 7 caracteres: desarrollo, programación, pythonista
+Cadenas con mezcla de mayúsculas y minúsculas: eJEmPlO, cODigO, Algoritmo
+
+# Números para convertir a romano:
+2021
+1094
+47
