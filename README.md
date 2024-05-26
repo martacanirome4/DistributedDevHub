@@ -12,13 +12,13 @@ El repositorio está organizado en carpetas que representan los diferentes tipos
 Cada proyecto incluye su propio README con instrucciones detalladas sobre cómo compilar, ejecutar y utilizar el proyecto.
 Además, se incluye un fichero con diversos recursos teóricos sobre los temas tratados.
 
-## Lista de Proyectos
-P1. Kata de TDD de Bolos
-P2. Cliente-Servidor mediante pipes
-P3. Cliente-Servidor mediante FIFOs
-P4. Cliente-Servidor mediante sockets UDS (sockets locales del dominio Unix)
-P5. Cliente-Servidor mediante sockets UDP de Internet
-P6. Cliente-Servidor mediante sockets TCP de Internet
-P7. Cliente-Servidor de mensajería mediante sockets TCP de Internet
+## Lista de Proyectos
+1.  Kata de TDD de Bolos
+2.  Cliente-Servidor mediante pipes
+3.  Cliente-Servidor mediante FIFOs
+4.  Cliente-Servidor mediante sockets UDS (sockets locales del dominio Unix)
+5.  Cliente-Servidor mediante sockets UDP de Internet
+6.  Cliente-Servidor mediante sockets TCP de Internet
+7.  Cliente-Servidor de mensajería mediante sockets TCP de Internet
 
 ![2929337_drawreese2news_mario-pipe-gif](https://github.com/martacanirome4/DistributedDevHub/assets/50625677/0092e526-d3b2-46ed-a23f-612b12fafdc1)
