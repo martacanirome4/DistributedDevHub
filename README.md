@@ -8,7 +8,7 @@ abordando diferentes aspectos como la comunicación a través de pipes, fifos, s
 - Sockets: Ejemplos de aplicaciones que utilizan sockets para la comunicación entre procesos en redes, incluyendo TCP/IP y UDP.
 
 ## Estructura del Repositorio
-El repositorio está organizado en carpetas que representan los diferentes tipos de proyectos.
+El repositorio está organizado en carpetas, bajo el directorio '/practicas', que representan los diferentes tipos de proyectos.
 Cada proyecto incluye su propio README con instrucciones detalladas sobre cómo compilar, ejecutar y utilizar el proyecto.
 Además, se incluye un fichero con diversos recursos teóricos sobre los temas tratados.
 
