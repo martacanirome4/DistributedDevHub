@@ -93,11 +93,3 @@ GitHub 2023
 MIT License – Libre uso con atribución  
 [Ver licencia](https://opensource.org/licenses/MIT)
 
----
-
-## 💬 Extra Flow Ideas
-
-- 📊 Benchmark de rendimiento TCP vs UDP
-- 📹 GIFs o demos de mensajes cruzados cliente-servidor
-- 🧵 Gráfico visual del flujo de datos entre procesos
-- 🌍 Mini entorno virtual de pruebas con Docker Compose
